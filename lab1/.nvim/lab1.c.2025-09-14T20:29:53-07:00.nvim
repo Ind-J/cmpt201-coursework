@@ -1,0 +1,17 @@
+#define _GNU_SOURCE
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+  char *buff = NULL;
+  size_t size = 0;
+  ssize_t num_char = getline(&buff, &size, stdin);
+
+  printf("Please enter some text:\n");
+  if (num_char == -1) {
+    perror("getline failed");
+    exit(EXIT_FAILURE);
+  }
+
+  free(buff);
+}
