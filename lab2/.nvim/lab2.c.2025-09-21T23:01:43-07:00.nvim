@@ -1,0 +1,29 @@
+#define _GNU_SOURCE
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+
+int main() {
+  char *buff = NULL;
+  size_t size = 0;
+  char *saveptr;
+  char *cmd;
+
+  printf("Enter programs to run.\n");
+  ssize_t num_char = getline(&buff, &size, stdin);
+  if (num_char == -1) {
+    perror("getline failed");
+    exit(EXIT_FAILURE);
+  }
+
+  char *ret = strtok_r(buff, "/", &saveptr);
+  while (ret != NULL) {
+    cmd = ret;
+    ret = strtok_r(NULL, "/", &saveptr);
+  }
+  char *path = buff + 3;
+  execl("/bin/ls", "ls", NULL);
+
+  free(buff);
+}
