@@ -1,0 +1,13 @@
+{"version": 2, "width": 130, "height": 51, "timestamp": 1759728421, "idle_time_limit": 5.0, "env": {"SHELL": "/usr/bin/zsh", "TERM": "xterm-256color"}}
+[0.118034, "o", "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                 \r \r"]
+[0.118727, "o", "\u001b]2;cmpt201@079c581bca9a:~/cmpt201-coursework/lab4\u0007\u001b]1;..ursework/lab4\u0007"]
+[0.119927, "o", "\u001b]7;file://079c581bca9a/home/cmpt201/cmpt201-coursework/lab4\u001b\\"]
+[0.132218, "o", "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[35m[recording] \u001b[34m~/cmpt201-coursework/lab4\u001b[32m❯\u001b[39m \u001b[K"]
+[0.132361, "o", "\u001b[?1h\u001b="]
+[0.132436, "o", "\u001b[?2004h"]
+[0.207465, "i", "n"]
+[0.209101, "o", "n"]
+[0.210993, "o", "\b\u001b[1m\u001b[31mn\u001b[0m\u001b[39m"]
+[0.211132, "o", "\b\u001b[1m\u001b[31mn\u001b[0m\u001b[39m\u001b[92mvim lab4.c\u001b[39m\u001b[10D"]
+[0.311638, "i", "v"]
+[0.312174, "o", "\b\u001b[1m\u001b[31mn\u001b[1m\u001b[31mv\u001b[0m\u001b[39m"]
